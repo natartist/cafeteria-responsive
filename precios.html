@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Cafetería-Precios de los cafés</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allerta&family=Montserrat&family=Pacifico:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+  <!--Header-->
+  <header id="header" class="header background-general">
+    <div class= contenedor>
+      <figure class="logotipo"> <!--Logotipo-->
+        <!--<img src="img/logo.png" width="60" alt="logo cafe"/>-->
+        <span>CafeTime</span>
+      </figure>
+     
+      <nav class="menu"> <!-- menu -->
+       <!-- ul es una lista desordenada -->
+       <!-- ol es una lista ordenada-->
+        <ul>
+          <li> <a href="index.html">Home </a></li>
+          <li> <a href="index.html#cafes">Cafés </a></li>
+          <li> <a href="precios.html">Precios </a></li>
+        </ul>
+      </nav>
+    </div>
+    
+
+   </header>
+   <!--Header-->
+
+<!--Contenido-->
+<main>
+
+  <section class="tabla">
+    <div class="contenedor">
+      <div class="titulo-precio">
+        <span>Precios CafeTime</span>
+        <img src="img/coffetimeprecios1.png" alt="" width="100">
+      </div>
+      <table>
+        <tbody>
+          <tr>
+            <td>Capuchino <br> <i>Sabor intenso y exquisito.</i>
+            </td>
+            <td> <div class="precio">$1.500</div></td>
+            </tr>
+
+          <tr>
+            <td>Mocachino <br> <i>Delicioso café con sabor chocolate.</i></td>
+            <td> <div class="precio">$1.800</div></td>
+            </tr>
+
+            <tr> 
+            <td>Vainilla Late <br> <i>Cremoso y delicioso café con sabor a vainilla.</i></td>
+            <td> <div class="precio">$2.000</div></td>
+          <tr>
+          
+          </tr>
+          <td>Frappé <br> <i>Delicioso café frappeado. </i></td>
+          <td> <div class="precio">$2.200</div></td>
+        <tr>
+
+        </tr>
+        <td>Machiato <br> <i>Espumoso, cremoso, lleno de sabor. </i></td>
+        <td> <div class="precio">$2.000</div></td>
+      <tr>
+
+      <td>Americano <br> <i>Fuerte, concentrado, energizante. </i></td>
+      <td> <div class="precio">$1.500</div></td>
+    <tr>
+          </tr>
+        </tbody>
+      
+       </table>
+  
+    </div>
+  
+  </section>
+
+</main>
+
+<!--Contenido-->
+
+   <!--Footer-->
+   <footer class="footer">
+    <div class="contenedor">
+      
+      <div class="contacto">
+        <img src="img/imagenfooter.png" alt="image footer" width="300" />
+  
+        <a href="tel:+56997830991"> <strong>Teléfonos</strong> <span>97830991</span></a>
+  
+        <a href= "mailto:contacto@cafetime.cl"> <strong>E-mail</strong> <span>contacto@cafetime.cl</span></a>
+        </div>
+    
+      <form class="formulario">
+        
+        <div class="col1">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" required name="nombre"/>
+          
+          <label for="email">E-mail</label>
+          <input type="email" id="email" required name="email"/>
+    
+          <div class="generos"> 
+            <label for="mujer">
+              <input type="radio" id="mujer" name="genero" value="mujer" required> Mujer
+            </label>
+    
+            <label for="hombre">
+              <input type="radio" id="hombre" name="genero" value="hombre" required> Hombre
+            </label>
+           </div>
+    
+          <div class="intereses">
+            <label for="cotizacion">
+              <input type="checkbox" id="cotizacion" name="intereses []" value="cotizacion"> Cotización
+            </label>
+            
+            <label for="reclamos">
+              <input type="checkbox" id="reclamos" name="intereses[]" value="reclamos"> Reclamos
+            </label>
+    
+            <label for="observaciones">
+              <input type="checkbox" id="observaciones" name="intereses []" value="observaciones"> Observaciones
+            </label>
+            
+            <label
+             for="otros">
+              <input type="checkbox" id="otros" name="intereses[]" value="otros"> Otros
+          </label>
+        </div>
+  
+        </div>
+        
+  <div class="col2">
+    <label>Comentarios</label>
+    <textarea name="" id="comentarios" cols="27" rows="7"></textarea>
+    <input class="button" type="submit" value="Enviar">
+  
+  </div>
+  
+      </form>
+  
+    </div> 
+    
+  </footer>
+   <!--Footer-->
+</body>
+</html>
+
+<!-- 
+  <table>
+        <thead>
+          <tr>
+            <th>Productos</th>
+            <th>Precios</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Capuchino
+            </td>
+            <td>$1.000</td>
+            <td>Sabor intenso y exquisito</td>
+          </tr>
+          <tr>
+            <td>Mocachino</td>
+            <td>$750</td>
+            <td>Delicioso café con sabor chocolate</td>
+          </tr>
+            <td>Vainilla Late</td>
+            <td>$850</td>
+            <td>Cremoso y delicioso café con sabor a Vainilla</td>
+          <tr>
+  
+          </tr>
+        </tbody>
+      
+       </table> -->
