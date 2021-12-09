@@ -67,7 +67,7 @@ input[type='checkbox']:checked:after {
 /* Una buena practica tener estilos centralizados */
 .contenedor {
   position: relative;
-  width: 800px;
+  max-width: 800px;
   margin: auto;
 }
 
@@ -96,7 +96,8 @@ input[type='checkbox']:checked:after {
 
 .cafes {
   color: #412b19;
-  margin-bottom: 60px;
+  margin-top: 60px;
+  margin-bottom: -60px;
  
 }
 
@@ -187,6 +188,7 @@ border-radius: 8px;
 .left {
   float: left;
   position: relative;
+  top: -120px;
   
 }
 /* una buena práctica, tener estos estilos centralizados*/

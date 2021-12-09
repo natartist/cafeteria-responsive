@@ -1,0 +1,19 @@
+/*768 para tablet y está dentro de los 800px que vamos a trabajar*/
+@media screen and (max-width: 800px) {
+  /*portada*/
+  .titulo {
+    font-size: 45px;
+    margin-top: 0;
+  }
+  .title-a {
+    font-size: 18px;
+  }
+  .portada {
+    height: auto;
+  }
+  .portada .button {
+    margin-bottom: 30px;
+    display: inline-block;
+  }
+  /*fin de la portada*/
+}
