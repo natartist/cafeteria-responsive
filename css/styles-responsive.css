@@ -16,12 +16,38 @@
     display: inline-block;
   }
   /*fin de la portada*/
-}
 
-/* cafes*/
+  /* cafes*/
 .cafes {
   text-align: center;
+  margin:0 ;
+}
+.right, .left {
+  float: none;
+  position: static;
+}
+.contenedor-cafe-a {
+  position: static;
+  padding: 0;
+}
+.contenedor-cafe-b {
+  margin: 0;
+  position: static;
+}
+
+.cafe.granoscafe {
+  height: auto;
+}
+
+.cafe li {
+  list-style: none;
+}
+
+.title-b {
   margin: 0;
 }
 /*fin de cafes*/
+}
+
+
 
