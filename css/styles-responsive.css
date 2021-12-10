@@ -111,3 +111,62 @@ input[type="checkbox"]{
 
 /*Fin del footer*/
 }
+
+@media screen and (max-width:650px) {
+.header {
+  text-align: center;
+}  
+.logotipo {
+  margin: 0;
+}
+.menu {
+  position: static;
+  display: block;
+}
+.menu li:first-child {
+  margin: 0;
+}
+.menu ul {
+  padding: 0;
+}
+}
+
+/*celulares*/
+@media screen and (max-width:500px) {
+  /*Portada*/
+  .menu li {
+    display: block;
+    margin: 0;
+    padding: 8px 0;
+    border-bottom: 1px solid white;
+  }
+  
+  .menu li:first-child {
+    border-top: 1px solid white;
+  }
+
+  .portada {
+    text-align: center;
+  }
+
+  .titulo {
+    font-size: 35px;
+  }
+
+  .title-a {
+    font-size: 15px;
+  }
+  /*Fin de portada*/
+
+  /*Cafes*/
+  .cafe img {
+    width: 200px;
+  }
+.title-b {
+  font-size: 30px;
+}
+  /*Fin cafes*/
+}
+
+
+/*fin de Celulares*/
