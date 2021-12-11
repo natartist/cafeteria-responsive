@@ -10,6 +10,7 @@
   left: 20px;
   top: 20px;
   z-index: 3;
+  display: none;
 }
 
 /*Inicio de tablets*/
@@ -148,13 +149,33 @@ input[type="checkbox"]{
 /*celulares*/
 @media screen and (max-width:500px) {
   /*Portada*/
+.portada .button {
+  display: block;
+}
 
+.burger-button {
+  display: block;
+}
   .portada .contenedor {
     position: static;
   }
+  /*pagina de precios*/
+.header {
+  position: static;
+}
+.header .contenedor {
+  position: static;
+}
+.titulo-precio {
+  font-size: 32px;
+}
+.titulo-precio img {
+  width: 60px;
+}
+  /*fin pagina de precios*/
   .menu {
     /*border: 1px solid tomato;*/
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     left: -100%;
