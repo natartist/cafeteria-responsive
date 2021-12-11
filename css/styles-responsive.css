@@ -111,7 +111,7 @@ textarea {
 }
 
 /*selectores de atributos*/
-input [type="text"],
+input[type="text"],
 input[type="email"] {
   font-size: 16px;
   padding: 5px;
